@@ -1,0 +1,13 @@
+.header {
+    padding: 40px 0;
+}
+.header__list {
+    display: flex;
+    column-gap: 40px;
+}
+.header__link {
+    color: black;
+    &.active {
+        color: #646cff;
+    }
+}
