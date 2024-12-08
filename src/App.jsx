@@ -7,6 +7,7 @@ import Login from './pages/Login/Login';
 import './App.css'
 import './styles/style.css'
 import Layout from './Layout/Layout';
+import NotFound from './pages/NotFound/NotFound';
 // import { useEffect } from 'react';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='' element={<Home />} />
           <Route path='contact' element={<Contact />} />
           <Route path='about' element={<About />} />
+          <Route path='*' element={<NotFound/>}/>
         </Route>
         <Route path='/login' element={<Login />}></Route>
         {/* Add more routes here */}

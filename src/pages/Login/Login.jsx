@@ -1,14 +1,19 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Navigate } from "react-router-dom";
 
 const Login = () => {
     const navigate =  useNavigate();
 
     console.log(navigate);
+
+    // if (1 === 1) {
+    //     return <Navigate to={'/'}/>
+    // }
     
     return (
         <div className="container">
             <br />
             <br />
+            
             <br />
             <br />
 
